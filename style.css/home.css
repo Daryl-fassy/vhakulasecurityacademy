@@ -1,0 +1,76 @@
+.home-toggle {
+    height: 20px; /* Match .Home-word font-size */
+    vertical-align: middle;
+  }
+  
+
+   .Home-word {
+    color: rgb(212, 210, 210);
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+   }
+   .home-header{
+    background-color: #363636;
+    padding: 3px;
+   }
+   
+  .header {
+      background-color: #fafafa;
+      text-align: center;
+      padding: 20px;
+    }
+    p {
+      font-size: 25px;
+      color: #333;
+      font-family: Arial, sans-serif;
+    }
+    .vhakula {
+      color: #ff8b2d;
+      font-weight: bold;
+      font-size: 24px;
+      font-style: italic;
+      font-family: Arial, sans-serif;
+      
+    }
+    
+    .home-footer {
+      background-color: #dfd2d2;
+      font-size: 1.5re,;
+      text-align: center;
+      padding: 2px;
+      color: #333;
+    }
+  
+      .img-logo {
+        /* Try a larger value to test */
+  width: 100%;       /* Maintain aspect ratio */
+      /* Optional: for layout */
+
+ /* Optional: center image */
+      /* Optional: center image */
+}
+ 
+ .home-pic1 {
+  width: 100%; /* Full width */
+  border: 4px solid rgba(0,0,0,0.15); /* Soft, semi-transparent border */
+  box-shadow: 0 0 20px 8px rgba(0,0,0,0.10); /* Faded shadow around image */
+  border-radius: 8px; /* Optional: rounded corners */
+}
+.slider1{
+  
+    font-size: 30px;
+    color: #ff8b2d;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+.slider1:hover{
+  color: #ff8b2d;
+  opacity: 0.7;
+  margin: none;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}

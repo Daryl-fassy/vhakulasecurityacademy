@@ -1,0 +1,154 @@
+      .contact-header {
+        text-align: center;
+        margin-top: 20px;
+        padding: 5px;
+        background-color: #363636;
+      }
+      .call-icon {
+        width: 24px; /* Adjust size as needed */
+        height: 24px;
+        margin-right: auto;
+        vertical-align: middle;
+      }
+      .contact-info {
+        font-size: 16px;
+        font-weight: bold;
+        color: white;
+        vertical-align: middle;
+      }
+      .image-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;}
+
+.pic2, .pic3 {
+  width: 100%;
+  max-width: 320px; /* Limits image size on mobile */
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+
+}
+p {
+      font-size: 25px;
+      color: #333;
+      font-family: Arial, sans-serif;
+    }
+
+    .big-text {
+      font-size: 24px;
+      font-weight: bold;
+      color: #057dce;
+    
+      font-family: Arial, sans-serif;
+    }
+    .location {
+      font-size: 26px;
+      color: #ff8b2d;
+      font-family: Arial, sans-serif;
+      font-weight: bold;
+    }
+    .Registered {
+      font-size: 25px;
+      color: #ff8b2d;
+      font-family: Arial, sans-serif;
+      font-weight: bold;
+    }
+
+  .contact-footer{
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #363636;
+    color: white;
+    font-size: 14px;
+  }
+  .inquiries {
+    font-size: 25px;
+   color: #057dce;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  .wht-logo {
+    width: auto; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 3px; /* Space between logos */
+ 
+    vertical-align: middle; /* Align with text */
+  } 
+  .mp{
+    width: auto; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 3px; /* Space between logos */
+ 
+    vertical-align: middle; /* Align with text */
+ 
+  }
+.fot {
+  color: #363636;
+  font-size: 20px;
+  text-align: center;
+  background: #fdfbf9;
+  padding: 10px;
+  background-color: #f7e3e3;
+}
+
+.fbk {
+  display: inline-block;
+  height: 1em;      /* Match text height */
+  width: auto;      /* Keep aspect ratio */
+  vertical-align: middle;
+  margin: 0 8px;
+}
+  .slider3 {
+    font-size: 30px;
+    color: #ff8b2d;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: underline;
+  }
+  .slider3:hover {   
+     opacity: 0.7;
+  margin: none;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+    
+  }
+  /* Responsive images and layout for mobile */
+img, .call-icon, .wht-logo, .mp, .fbk {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
+
+.pic2, .pic3 {
+  width: 100%;
+  max-width: 320px; /* Limits image size on mobile */
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Responsive text and layout for small screens */
+@media (max-width: 600px) {
+  p, .big-text, .location, .Registered, .inquiries, .fot {
+    font-size: 16px !important;
+  }
+  .image-row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-header, .contact-footer, .fot {
+    padding: 8px;
+  }
+}
